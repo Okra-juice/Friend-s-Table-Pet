@@ -38,14 +38,3 @@ Right-click the pet to open the menu:
 
 > Chat needs an internet connection and a valid API key in "Settings".
 
-## Build
-
-Requirements: **Visual Studio 2022 Build Tools** (C++ desktop workload) or **MinGW-w64** (g++).
-
-Put `build.bat` in the same folder as the sources and double-click it. It auto-detects the compiler (VS first, then MinGW) and outputs `DeskPet.exe`.
-
-Sources: `main.cpp`, `chooser.cpp`, `petmenu.cpp`, `chat.cpp`, `appearance.cpp`, `hunger.cpp`, `eatconfirm.cpp` (shared header `common.h`).
-
-Links: `gdiplus`, `comdlg32`, `ole32`, `user32`, `gdi32`, `wininet`, `shell32` (MinGW adds `luuid`, `pthread`).
-
-See [UserGuide_EN.md](UserGuide_EN.md) and [BuildGuide_EN.md](BuildGuide_EN.md) for details.
